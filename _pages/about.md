@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='cv'>CV</a>   Hi，I'm Hanqing.
+subtitle: Hi，I'm Hanqing.
 
 profile:
   align: right
