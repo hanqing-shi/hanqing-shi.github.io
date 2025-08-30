@@ -20,7 +20,7 @@
       }
     ]
   },
-  "Experience": [
+  "experience": [
     {
       "name": "Megvii, Embodied AI Group",
       "position": "Full-time Research Intern",
@@ -79,28 +79,30 @@
       ]
     }
   ],
-  "awards": [
+  "projects": [
     {
-      "title": "2023 Excellent Student Scholarship",
-      "date": "2023-01-01",
-      "awarder": "University of Electronic Science and Technology of China",
-      "summary": "Awarded to the top 10% of students"
+      "name": "Robotic Arm Sorting System",
+      "summary": "A six-degree-of-freedom robotic arm platform for sorting tasks",
+      "highlights": [
+        "Developed kinematics and planning algorithms for the robotic arm",
+        "Evaluated performance in real-world scenarios, achieving safe and collision-free dart sorting"
+      ],
+      "startDate": "2024-05-01",
+      "endDate": "2024-08-01",
+      "url": "https://zqqingqing.github.io/project_6DOF_sorting.html"
     },
     {
-      "title": "2022 Excellent Student Scholarship",
-      "date": "2022-01-01",
-      "awarder": "University of Electronic Science and Technology of China",
-      "summary": "Awarded to the top 10% of students"
-    },
-    {
-      "title": "Merit Student, School of Mechanical and Electrical Engineering",
-      "date": "2022-01-01",
-      "awarder": "University of Electronic Science and Technology of China",
-      "summary": "Recognized for academic excellence and outstanding contributions"
+      "name": "Target Identification and Tracking System",
+      "summary": "A laser-based target identification and tracking platform",
+      "highlights": [
+        "Led a team of four to design and build a workbench for a laser system",
+        "Designed image processing and control algorithms for the camera and stepper motor"
+      ],
+      "startDate": "2024-02-01",
+      "endDate": "2024-05-01",
+      "url": "https://zqqingqing.github.io/project_target_tracking.html"
     }
   ],
-  "certificates": [],
-  "publications": [],
   "skills": [
     {
       "name": "Programming",
@@ -144,6 +146,28 @@
       ]
     }
   ],
+  "awards": [
+    {
+      "title": "2023 Excellent Student Scholarship",
+      "date": "2023-01-01",
+      "awarder": "University of Electronic Science and Technology of China",
+      "summary": "Awarded to the top 10% of students"
+    },
+    {
+      "title": "2022 Excellent Student Scholarship",
+      "date": "2022-01-01",
+      "awarder": "University of Electronic Science and Technology of China",
+      "summary": "Awarded to the top 10% of students"
+    },
+    {
+      "title": "Merit Student, School of Mechanical and Electrical Engineering",
+      "date": "2022-01-01",
+      "awarder": "University of Electronic Science and Technology of China",
+      "summary": "Recognized for academic excellence and outstanding contributions"
+    }
+  ],
+  "certificates": [],
+  "publications": [],
   "languages": [
     {
       "language": "English",
@@ -166,29 +190,5 @@
       ]
     }
   ],
-  "references": [],
-  "projects": [
-    {
-      "name": "Robotic Arm Sorting System",
-      "summary": "A six-degree-of-freedom robotic arm platform for sorting tasks",
-      "highlights": [
-        "Developed kinematics and planning algorithms for the robotic arm",
-        "Evaluated performance in real-world scenarios, achieving safe and collision-free dart sorting"
-      ],
-      "startDate": "2024-05-01",
-      "endDate": "2024-08-01",
-      "url": "https://zqqingqing.github.io/project_6DOF_sorting.html"
-    },
-    {
-      "name": "Target Identification and Tracking System",
-      "summary": "A laser-based target identification and tracking platform",
-      "highlights": [
-        "Led a team of four to design and build a workbench for a laser system",
-        "Designed image processing and control algorithms for the camera and stepper motor"
-      ],
-      "startDate": "2024-02-01",
-      "endDate": "2024-05-01",
-      "url": "https://zqqingqing.github.io/project_target_tracking.html"
-    }
-  ]
+  "references": []
 }
