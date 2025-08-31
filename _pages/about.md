@@ -26,4 +26,4 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I'm currently a Master's student in Mechanical Engineering at the **University of California, Berkeley**, specializing in control of robotic and autonomous systems. I hold a Bachelor's degree in Robotics Engineering from the **University of Electronic Science and Technology of China** (UESTC). My interests focus primarily on robotics, with experience in robot manipulation, embodied AI, sim-to-real transfer, deep learning, and image processing.
+I'm currently a Master's student in Mechanical Engineering at the **University of California, Berkeley**, specializing in control of robotic and autonomous systems. I hold a Bachelor's degree in Robotics Engineering from the **University of Electronic Science and Technology of China** (UESTC). My interests focus primarily on robotics, with experience in robot manipulation, embodied AI, sim-to-real transfer, reinforcement learning, and image processing.

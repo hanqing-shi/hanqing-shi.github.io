@@ -29,7 +29,7 @@ Many applications lead to **unsolvable** linear equations $Ax=b$. The least squa
 1. The SVD of A leads to its **pseudoinverse** $A^+$. Then $\hat x = A^+b$ :one short formula (This note)  
 2. $A^TA\hat x=A^Tb$ can be solved directly when A has **independent columns**  
 3. The Gram-Schmidt idea produces **orthogonal columns** in Q which is $A=QR$.
-4. **Minimize** $||b-Ax||^2 + \delta^2||x||^2$ 
+4. **Minimize** $\lVert b - Ax \rVert^2 + \delta^2 \lVert x \rVert^2$
 
 #### $A^+$ is Pseudoinverse of A
 
@@ -59,9 +59,14 @@ We conclude:
 2. If A has independent rows, then $A^+=A^T(AA^T)^{-1}$ and $AA^+=I$
 3. A diagonal matrix  $\sum_{m*n}$ has $\sum ^{+} _{n*m}$ 
 
-for **all matrices**: $A=U\sum V^T$ (SVD) , $A^+=V\sum^+U^T$
+for **all matrices**: 
+
+$$
+A=U\sum V^T (SVD) , A^+=V\sum^+U^T
+$$
 
 ##### The Least Squares Solution to $Ax=b$ is $x^+ = A^+B$  
-properties:  
-- $x^+=A^+b$ makes $||b-Ax||^2$ as small as possible.  
-- If another $\hat x$ achieves then $||x^+||\le||\hat x||$ (Minimum norm)
+**properties:**
+
+1. $x^+=A^+b$ makes $||b-Ax||^2$ as small as possible.  
+2. If another $\hat x$ achieves then $||x^+||\le||\hat x||$ (Minimum norm)
