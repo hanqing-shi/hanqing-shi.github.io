@@ -276,6 +276,17 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
+            window.location.href = "/blog/2023/statistics-note-2/";
+          
+        },
+      },{id: "post-statistics-101",
+        
+          title: "statistics 101",
+        
+        description: "An illustration of the big picture as well as common concepts and distributions in statistics.",
+        section: "Posts",
+        handler: () => {
+          
             window.location.href = "/blog/2023/statistics-note-1/";
           
         },
