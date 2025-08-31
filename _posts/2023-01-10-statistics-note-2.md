@@ -20,31 +20,14 @@ When an ouput is predicted, we need its probability. When that output is measure
 
 ### 2.Mean,Variance
 
-**Sample mean** : 
-
-$$
-m=\mu=\frac{1}{N}(x_{1}+x_{2}+\cdots+x_{N})
-$$
-
-**Expected Value** : 
-
-$$
-m=E[x]=p_{1}x_{1}+p_{2}x_{2}+\cdots+p_{n}x_{n}
-$$
+**Sample mean** : $m=\mu=\frac{1}{N}(x_{1}+x_{2}+\cdots+x_{N})$  
+**Expected Value** : $m=E[x]=p_{1}x_{1}+p_{2}x_{2}+\cdots+p_{n}x_{n}$
 
 Law of Large Numbers: $\mu\to E[x]$ , as N increases.
 
 **Sample Variance**:  
-
-$$
-S^{2}=\frac{1}{N-1}[(x_{1}-m)^2+(x_{2}-m)^2+\cdots +(x_{N}-m)^2]
-$$
-
-**Variance**: 
-
-$$
-\sigma^2=E[(x-E[x])^2]=p_1(x_1-m)^2+p_2(x_2-m)^2+\cdots +p_n(x_n-m)^2
-$$
+$S^{2}=\frac{1}{N-1}[(x_{1}-m)^2+(x_{2}-m)^2+\cdots +(x_{N}-m)^2]$  
+**Variance**: $\sigma^2=E[(x-E[x])^2]=p_1(x_1-m)^2+p_2(x_2-m)^2+\cdots +p_n(x_n-m)^2$
 
 The variance $\sigma ^2$ measures the expected distance(squared) from the expected mean E[x].   
 The sample variance measures actual distance(squared) form the actual sample mean $\mu$.
@@ -52,7 +35,6 @@ The sample variance measures actual distance(squared) form the actual sample mea
 **Notice!** : the denominator in sample variance is **N-1**,so that $S^2$ is unbiased estimate of $\sigma^2$. (Bessel’s Correction)   
 
 Proof：
-
 $$ \begin{align*}
     E[S^2]&=E[\frac{1}{N-1}\sum(x_i-m)^2]=\frac{1}{N-1}E[\sum x_i^2-2\sum x_im+\sum m^2] \\
     &=\frac{1}{N-1}E[\sum x_i^2-Nm^2]=\frac{1}{N-1}[E[\sum x_i^2]-E[Nm^2]]
@@ -66,8 +48,7 @@ $$ \begin{align*}
     &= \sum (var(x_i)+E[x_i]^2) \\
     &= N(\sigma^2 +\mu^2)
 \end{align*}  
-$$
-
+$$   
 similarly:  
 
 $$ \begin{align*}
@@ -75,10 +56,8 @@ $$ \begin{align*}
     &=  N(var(m)+E[m]^2) \\
     &= N(\frac{1}{N}\sigma^2+\mu^2)
 \end{align*}
-$$
-
-Therefore:
-
+$$  
+Therefore:  
 $$E[S^2]=\frac{1}{N-1}[(N-1)\sigma^2]=\sigma^2
 $$
 
@@ -96,28 +75,19 @@ $$
 
 
 #### **Binomial**
-
 $$\mu = np,\sigma^2=np(1-p)$$
-
 #### **Poisson**
 
 $$
 p \to 0, \quad n \to \infty, \quad np = \lambda \\
-$$
-
 binomial:
-
-$$
 p_{0,n} = (1-p)^n = \left(1 - \frac{\lambda}{n}\right)^n \to e^{-\lambda} \\
 p_{1,n} = np(1-p)^{n-1} = \frac{\lambda}{1-p}\left(1 - \frac{\lambda}{n}\right)^n \to \lambda e^{-\lambda}
 $$
 
 #### **Poisson probability**
-
-$$
-P_k=\frac{\lambda ^k}{k!}e^{-\lambda} \\
-\mu=\lambda\\ \sigma^2=\lambda
-$$
+$$P_k=\frac{\lambda ^k}{k!}e^{-\lambda} \\
+\mu=\lambda\\ \sigma^2=\lambda$$
 
 #### **Exponential distribution**
 It describes the **waiting time** in a poisson process.(continous,memoryless)  
@@ -139,5 +109,4 @@ $$
 
 $S^2$ is a sum of squares with $n-1$ degree freedom. It has the probability distribution $p_{n-1}$ for $\chi_{n-1} ^2$  
 Example:
-
 $$for\  n=2,S^2=\frac{1}{2}(x_1-x_2)^2$$
