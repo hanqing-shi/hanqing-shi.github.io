@@ -9,7 +9,7 @@ related_posts: false
 ---
 # Statistics Note
 
-This is a note based on *[Linear Algebra And Learning From Data](https://math.mit.edu/~gs/learningfromdata/)* by *Gilbert Strang*.
+This is the 1st note based on *[Linear Algebra And Learning From Data](https://math.mit.edu/~gs/learningfromdata/)* by *Gilbert Strang*.
 
 ---
 

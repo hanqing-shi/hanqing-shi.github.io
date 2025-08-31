@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Covariance Matrix
+title: Covariance
 date: 2023-01-26 11:12:00-0400
 description: a simple interpretation about covariance.
 tags: math
