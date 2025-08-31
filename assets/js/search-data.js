@@ -268,11 +268,11 @@ ninja.data = [{
             window.location.href = "/blog/2023/table-of-contents/";
           
         },
-      },{id: "post-statistics-101",
+      },{id: "post-statistical-inference",
         
-          title: "statistics 101",
+          title: "Statistical Inference",
         
-        description: "An illustration of the big picture as well as common concepts and distributions in statistics.",
+        description: "Key concepts in statistical inference.",
         section: "Posts",
         handler: () => {
           
@@ -281,7 +281,7 @@ ninja.data = [{
         },
       },{id: "post-statistics-101",
         
-          title: "statistics 101",
+          title: "Statistics 101",
         
         description: "An illustration of the big picture as well as common concepts and distributions in statistics.",
         section: "Posts",
