@@ -268,6 +268,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/table-of-contents/";
           
         },
+      },{id: "post-covariance-matrix",
+        
+          title: "Covariance Matrix",
+        
+        description: "a simple interpretation about covariance.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/statistics-note-3/";
+          
+        },
       },{id: "post-statistical-inference",
         
           title: "Statistical Inference",
