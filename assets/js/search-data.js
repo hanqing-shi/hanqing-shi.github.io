@@ -142,6 +142,21 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-image-super-resolution",
+          title: 'Image Super-Resolution',
+          description: "Super-resolution weighting method with meta-Learning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/imagesr/";
+            },},{id: "projects-6-dof-robotic-arm-sorting",
+          title: '6-DOF Robotic Arm Sorting',
+          description: "Pick and place for target darts.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sorting/";
+            },},{id: "projects-target-tracking",
+          title: 'Target Tracking',
+          description: "A two-DOF laser workbench tracking moving targets.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/target_tracking/";
             },},{
         id: 'social-email',
         title: 'email',
