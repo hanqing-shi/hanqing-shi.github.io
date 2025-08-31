@@ -1,6 +1,6 @@
 ---
 layout: post
-title: statistics 101
+title: Statistics 101
 date: 2023-01-09 11:12:00-0400
 description: An illustration of the big picture as well as common concepts and distributions in statistics.
 tags: math
@@ -9,7 +9,7 @@ related_posts: false
 ---
 # Statistics Note
 
-This is note1 based on *[Linear Algebra And Learning From Data](https://math.mit.edu/~gs/learningfromdata/)* by *Gilbert Strang*.
+This is a note based on *[Linear Algebra And Learning From Data](https://math.mit.edu/~gs/learningfromdata/)* by *Gilbert Strang*.
 
 ---
 
