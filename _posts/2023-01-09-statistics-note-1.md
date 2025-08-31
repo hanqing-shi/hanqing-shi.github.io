@@ -127,14 +127,18 @@ $$p(x)=\lambda e^{-\lambda x}(x\ge 0) ,F(t)=1-e^{-\lambda t}$$
 $$\mu=\frac{1}{\lambda},\sigma^2=\frac{1}{\lambda ^2}$$
 
 #### **Chi-squared Distribution**
+
 $$\chi ^2_{n}=\sum x_{i}^2
-$$ 
+$$
+
 where $x_{i}$ are independent standard normal r.v.
 
 
-The Gamma function  
+The Gamma function
+
 $$\Gamma(n)=(n-1)!
-$$  
+$$
+
 ##### Typical use :
 
 $S^2$ is a sum of squares with $n-1$ degree freedom. It has the probability distribution $p_{n-1}$ for $\chi_{n-1} ^2$  
