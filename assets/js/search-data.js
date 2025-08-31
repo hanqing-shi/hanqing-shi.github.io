@@ -52,7 +52,7 @@ ninja.data = [{
         
           title: "Covariance",
         
-        description: "a simple interpretation about covariance.",
+        description: "A simple interpretation about covariance.",
         section: "Posts",
         handler: () => {
           
