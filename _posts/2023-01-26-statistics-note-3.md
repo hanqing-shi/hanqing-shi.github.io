@@ -2,7 +2,7 @@
 layout: post
 title: Covariance
 date: 2023-01-26 11:12:00-0400
-description: a simple interpretation about covariance.
+description: A simple interpretation about covariance.
 tags: math
 categories: notes
 related_posts: false

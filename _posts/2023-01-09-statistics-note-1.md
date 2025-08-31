@@ -85,7 +85,7 @@ $$
 ### 3.Probability Distributions  
 
 | Distribution         |One-word Description                            |
-|----------------------|----------------------------------------|
+|:--------------------:|:-------------------------------------:|
 | Binomial             | Tossing a coin $n$ times              |
 | Poisson              | Rare events                           |
 | Exponential          | Forgetting the past                   |
