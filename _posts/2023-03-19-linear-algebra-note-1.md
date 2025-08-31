@@ -68,5 +68,6 @@ $$
 ##### The Least Squares Solution to $Ax=b$ is $x^+ = A^+B$  
 **properties:**
 
-1. $x^+=A^+b$ makes $||b-Ax||^2$ as small as possible.  
-2. If another $\hat x$ achieves then $||x^+||\le||\hat x||$ (Minimum norm)
+- $x^+ = A^+ b$ makes $\lVert b - Ax \rVert^2$ as small as possible.  
+
+- If another $\hat{x}$ achieves then $\lVert x^+ \rVert \le \lVert \hat{x} \rVert$ (Minimum norm)
