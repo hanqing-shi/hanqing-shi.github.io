@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statistical Inference
-date: 2023-01-09 11:12:00-0400
+date: 2023-01-10 11:12:00-0400
 description: Key concepts in statistical inference.
 tags: math
 categories: notes
