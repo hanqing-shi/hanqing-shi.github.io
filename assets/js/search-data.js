@@ -147,6 +147,11 @@ ninja.data = [{
           description: "Super-resolution weighting method with meta-Learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/imagesr/";
+            },},{id: "projects-robot-simulation-and-vla-model",
+          title: 'Robot Simulation and VLA model',
+          description: "We constructed a manipulation task in Isaac Sim simulator and trained the model.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/isaacsim/";
             },},{id: "projects-6-dof-robotic-arm-sorting",
           title: '6-DOF Robotic Arm Sorting',
           description: "Pick and place for target darts.",
