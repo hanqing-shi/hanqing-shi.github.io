@@ -2,13 +2,11 @@
 layout: page
 title: Target Tracking
 description: A two-DOF laser workbench tracking moving targets.
-img: assets/img/12.jpg
+img: assets/img/tracking1.jpg
 importance: 1
 category: coursework
 related_publications: false
 ---
-
-# Target Tracking Project
 
 We designed image processing and control algorithms for a two-degree-of-freedom laser workbench equipped with a monocular camera, enabling stepper motor control for target identification and tracking.
 
@@ -47,7 +45,7 @@ We designed **image processing** and **control algorithms** for a two-degree-of-
 ## 2. Task Specification
 1. Fit inverse kinematics (not shown in demo video).  
 2. Scan a **QR code** to retrieve a **color sequence**.  
-3. Use the **laser to point at corresponding targets**, both statically and dynamically.  
+3. Use the **laser to point at corresponding targets**, including statical and dynamical objects.  
 4. Change target color and repeat step 3.  
 
 

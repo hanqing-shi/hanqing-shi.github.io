@@ -89,7 +89,7 @@
       ],
       "startDate": "2024-05-01",
       "endDate": "2024-08-01",
-      "url": "https://zqqingqing.github.io/project_6DOF_sorting.html"
+      "url": "https://hanqing-shi.github.io/projects/sorting/"
     },
     {
       "name": "Target Identification and Tracking System",
@@ -100,7 +100,7 @@
       ],
       "startDate": "2024-02-01",
       "endDate": "2024-05-01",
-      "url": "https://zqqingqing.github.io/project_target_tracking.html"
+      "url": "https://hanqing-shi.github.io/projects/target_tracking/"
     }
   ],
   "skills": [
@@ -109,9 +109,8 @@
       "level": "Advanced",
       "keywords": [
         "Python",
-        "C++",
+        "C/C++",
         "PyTorch",
-        "ROS",
         "MATLAB",
         "Linux",
         "Git"
@@ -122,9 +121,8 @@
       "level": "Advanced",
       "keywords": [
         "Isaac Sim",
-        "Robot Simulators",
-        "Control of Robotic Arms and Mobile Bases",
-        "Multi-view Image Processing"
+        "Robot Operating System (ROS)",
+        "Kinematics and Dynamics"
       ]
     },
     {
@@ -133,8 +131,7 @@
       "keywords": [
         "Computer Vision",
         "Deep Learning",
-        "Reinforcement Learning",
-        "Meta Learning"
+        "Reinforcement Learning"
       ]
     },
     {
