@@ -135,6 +135,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-cassie-balancing",
+          title: 'Cassie Balancing',
+          description: "Use force control to balance with external forces.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cassie_balance/";
             },},{id: "projects-image-super-resolution",
           title: 'Image Super-Resolution',
           description: "Super-resolution weighting method with meta-Learning.",
