@@ -2,7 +2,7 @@
 layout: page
 title: Cassie Balancing
 description: Use force control to balance with external forces.
-img: assets/img/tracking1.jpg
+img: assets/img/cassie.jpg
 importance: 1
 category: coursework
 related_publications: false

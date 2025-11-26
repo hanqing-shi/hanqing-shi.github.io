@@ -3,7 +3,7 @@ layout: page
 title: Target Tracking
 description: A two-DOF laser workbench tracking moving targets.
 img: assets/img/tracking1.jpg
-importance: 1
+importance: 3
 category: coursework
 related_publications: false
 ---

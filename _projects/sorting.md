@@ -3,7 +3,7 @@ layout: page
 title: 6-DOF Robotic Arm Sorting
 description: Pick and place for target darts.
 img: assets/img/sorting1.jpg
-importance: 1
+importance: 2
 category: coursework
 related_publications: false
 ---
