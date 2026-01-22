@@ -137,7 +137,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-cassie-balancing",
           title: 'Cassie Balancing',
-          description: "Use force control to balance with external forces.",
+          description: "A hierarchical force control pipeline for external disturbance rejection using QP-based force distribution.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cassie_balance/";
             },},{id: "projects-image-super-resolution",
