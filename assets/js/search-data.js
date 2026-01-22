@@ -135,6 +135,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-quadruped-backflip-via-reinforcement-learning",
+          title: 'Quadruped Backflip via Reinforcement Learning',
+          description: "Implementing a dynamic backflip maneuver using phase-based trajectory tracking and yaw-invariant rewards.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/backflip/";
             },},{id: "projects-cassie-balancing",
           title: 'Cassie Balancing',
           description: "A hierarchical force control pipeline for external disturbance rejection using QP-based force distribution.",
@@ -157,7 +162,7 @@ ninja.data = [{
               window.location.href = "/projects/rl/";
             },},{id: "projects-6-dof-robotic-arm-sorting",
           title: '6-DOF Robotic Arm Sorting',
-          description: "Pick and place for target darts.",
+          description: "Pick and place task based on image processing and inverse kinematics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sorting/";
             },},{id: "projects-target-tracking",
