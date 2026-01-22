@@ -16,5 +16,5 @@ We used feedback control to determine the force and momentum that are required t
     </div>
 </div>
 <div class="caption">
-    the experiment video.
+    forward/lateral push.
 </div>

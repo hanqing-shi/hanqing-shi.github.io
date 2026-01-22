@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A comprehensive overview of my projects.
+description: An overview of my projects.
 nav: true
 nav_order: 3
-display_categories: [industrial, coursework, research]
+display_categories: [industry, coursework, research]
 horizontal: false
 ---
 
