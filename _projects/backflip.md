@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quadruped Backflip via Reinforcement Learning
+title: Quadruped Backflip
 description: Implementing a dynamic backflip maneuver using phase-based trajectory tracking and yaw-invariant rewards.
 img: assets/img/go1_backflip.jpg
 importance: 2
