@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A comprehensive overview of my projects.",
+          description: "An overview of my projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -150,6 +150,11 @@ ninja.data = [{
           description: "We constructed a manipulation task in Isaac Sim simulator and trained the model.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/isaacsim/";
+            },},{id: "projects-humanoid-balancing",
+          title: 'Humanoid Balancing',
+          description: "Training Unitree G1 to withstand external disturbance using Reinforcement Learning in MuJoCo.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rl/";
             },},{id: "projects-6-dof-robotic-arm-sorting",
           title: '6-DOF Robotic Arm Sorting',
           description: "Pick and place for target darts.",
