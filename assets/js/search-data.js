@@ -135,8 +135,8 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-quadruped-backflip-via-reinforcement-learning",
-          title: 'Quadruped Backflip via Reinforcement Learning',
+            },},{id: "projects-quadruped-backflip",
+          title: 'Quadruped Backflip',
           description: "Implementing a dynamic backflip maneuver using phase-based trajectory tracking and yaw-invariant rewards.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/backflip/";
