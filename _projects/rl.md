@@ -18,7 +18,7 @@ The final trained policy demonstrates impressive stability, successfully withsta
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/rl_success.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/rl_success.mov" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
@@ -34,21 +34,21 @@ To achieve this level of robustness, we designed a multi-objective reward functi
 
 
 ### 1. Positive Incentives
-| Reward Name | Weight | Description |
-| :--- | :--- | :--- |
-| **alive** | +10.0 | Main incentive to prevent termination. |
-| **feet_contact** | +2.0 | Encourages standing in place first for small perturbations. |
-| **posture** | +1.0 | Penalizes deviation from a nominal running joint configuration with loose arm constraints. |
+
+* **alive**: The primary incentive used to prevent early episode termination and keep the robot functioning.
+* **feet_contact**: Encourages the robot to maintain ground contact and stand firmly, especially when facing small perturbations.
+* **posture**: Penalizes deviations from a nominal joint configuration, ensuring a natural running stance with relaxed arm constraints.
+
+---
 
 ### 2. Negative Penalties
-| Reward Name | Weight | Description |
-| :--- | :--- | :--- |
-| **feet_slip** | -10.0 | Penalizes foot sliding velocity to enforce stable standing. |
-| **knee_height** | -10.0 | Penalizes knee collapse. |
-| **penalty_lin_vel** | -1.0 | Penalizes base linear velocity (robot should remain stationary). |
-| **penalty_ang_vel** | -0.2 | Penalizes base angular velocity. |
-| **angular_momentum**| -0.1 | Encourages arm swing to cancel angular momentum. |
-| **action_rate_l2** | -0.001 | Regularization for smooth control actions. |
+
+* **feet_slip**: Penalizes the velocity of the feet sliding against the ground to ensure stable footing while standing.
+* **knee_height**: A specific penalty to prevent the knees from collapsing or the robot from crouching too low.
+* **penalty_lin_vel**: Penalizes the linear velocity of the base to ensure the robot remains stationary as intended.
+* **penalty_ang_vel**: Penalizes the angular velocity of the base to reduce unnecessary shaking or rotation.
+* **angular_momentum**: Penalizes overall angular momentum to encourage the robot to use its arms to balance and cancel out rotational forces.
+* **action_rate_l2**: A regularization term that penalizes large changes between consecutive control actions to ensure smooth motor output.
 
 ---
 
@@ -59,7 +59,7 @@ In the early stages of training, when **`feet_contact`** and **`knee_height`** r
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/reward_hacking.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/reward_hacking.mov" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
@@ -71,7 +71,7 @@ Incorrectly balanced weights or missing regularization often led to poor perform
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/bad_reward.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/bad_reward.mov" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: 6-DOF Robotic Arm Sorting
-description: Pick and place for target darts.
+description: Pick and place task based on image processing and inverse kinematics.
 img: assets/img/sorting1.jpg
-importance: 2
+importance: 3
 category: coursework
 related_publications: false
 ---
