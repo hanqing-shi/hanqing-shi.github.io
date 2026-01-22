@@ -4,7 +4,7 @@ title: Robot Simulation and VLA model
 description: We constructed a manipulation task in Isaac Sim simulator and trained the model.
 img: assets/img/r9.png
 importance: 1
-category: industrial
+category: industry
 related_publications: false
 ---
 <div class="row mt-3">
