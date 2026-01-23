@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/go1_backflip.mov" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/go1_backflip.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
@@ -27,10 +27,6 @@ The backflip is modeled as a time-indexed maneuver. We use a trajectory generato
 * **Takeoff**: Rapid extension of the joints to generate the necessary vertical and rotational momentum.
 * **Apex**: The robot reaches its maximum height while completing a full mid-air rotation.
 * **Landing**: The legs extend to align the feet for ground contact and absorb the impact energy.
-
-> **Note on JIT (Just-In-Time)**: 
-> In this implementation, the trajectory generator uses **PyTorch JIT (`@torch.jit.script`)**. This is a way to compile Python code into a high-performance representation. Because Reinforcement Learning involves thousands of parallel environments, JIT ensures the trajectory is calculated at near-C++ speeds, preventing the reference math from becoming a bottleneck during training.
-
 ---
 
 ### 2. Reward Function Design
@@ -57,7 +53,3 @@ This allows the robot to backflip successfully regardless of its starting orient
 ### 3. Implementation Details
 
 The controller is implemented within the `ManagerBasedRlEnv` framework. By mapping the simulation time to a normalized phase variable $\phi \in [0, 1]$, the robot can synchronize its physical actions with the reference trajectory precisely.
-
-```python
-# Normalized phase calculation for interpolation
-phase = torch.clamp(current_time / max_time, 0.0, 1.0)
