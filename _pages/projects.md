@@ -5,7 +5,7 @@ permalink: /projects/
 description: An overview of my projects.
 nav: true
 nav_order: 3
-display_categories: [industry, coursework, research]
+display_categories: [robotics, coursework, research]
 horizontal: false
 ---
 

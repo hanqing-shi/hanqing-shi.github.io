@@ -3,7 +3,7 @@ layout: page
 title: Image Super-Resolution
 description: Super-resolution weighting method with meta-Learning.
 img: assets/img/s1.jpg
-importance: 1
+importance: 2
 category: research
 related_publications: false
 ---
