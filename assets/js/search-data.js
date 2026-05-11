@@ -148,6 +148,11 @@ ninja.data = [{
           description: "We constructed a manipulation task in Isaac Sim simulator and trained the model.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/isaacsim/";
+            },},{id: "projects-motion-generation",
+          title: 'Motion Generation',
+          description: "This project presents a two-stage pipeline for generating natural, human-like locomotion with real-time joystick control for the Unitree G1 humanoid robot.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/motion_gen/";
             },},{id: "projects-humanoid-balancing",
           title: 'Humanoid Balancing',
           description: "Training Unitree G1 to withstand external disturbance using Reinforcement Learning in MuJoCo.",
